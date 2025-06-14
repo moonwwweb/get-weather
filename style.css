@@ -1,0 +1,68 @@
+body{
+background-color: rgba(127, 246, 255, 0.444);
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+justify-content: center;
+margin: 0;
+font-family:Arial, Helvetica, sans-serif;
+}
+#myH1{
+    font-size: 3rem;
+    color: rgb(0, 0, 0);
+    margin-top: 20px;
+    font-weight: bolder;
+}
+
+#cityInput,#getWeather{
+    border-radius: 5px;
+    font-size: 1.5rem;
+}
+#cityInput{
+    border: 1px solid rgba(255, 255, 255, 0.682);
+}
+#getWeather{
+    background-color: rgb(0, 186, 19);
+    color: white;
+    border: 0;
+}
+#getWeather:hover{
+    background-color: rgb(0, 214, 21);
+    cursor: pointer;
+}
+#getWeather:active{
+    background-color: rgb(0, 235, 23);
+}
+#weatherContainer{ 
+    background-color: rgb(0, 118, 118);
+    margin: 20px 50px;
+    box-shadow: 2px 2px 7px black;
+    border-radius: 5px;
+    color: white;
+    width: 400px;
+}
+#result h1{
+    font-size: 3rem;
+    margin: 15px 5px;
+    font-weight: bolder;
+}
+#result p{
+    font-size: 2rem;
+}
+.lastP{
+    margin-bottom: 0;
+}
+
+.weatherSymbols{
+    font-size: 150px;
+    margin:0%;
+}
+
+/* #result h2{
+    font-size: 5rem;
+
+    text-align: left;
+    margin: 0;
+    padding: 0;
+} */
